@@ -1,0 +1,16 @@
+install-openam \
+--serverUrl http://localhost:8080/openam \
+--adminPwd Password123 \
+--cfgDir /forgerock/openam \
+--cfgStore embedded \
+--cfgStoreAdminPort 4444 \
+--cfgStoreDirMgr uid=admin \
+--cfgStoreDirMgrPwd Password123 \
+--cfgStoreHost localhost \
+--cfgStoreJmxPort 1689 \
+--cfgStorePort 10389 \
+--cookieDomain openam.swo.com \
+--installLocale en_US \
+--platformLocale en_US \
+--pwdEncKey O6QWwHPO4os+zEz3Nqn/2daAYWyiFE32 \
+--acceptLicense
